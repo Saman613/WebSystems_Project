@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/images_style.css">
+    <title>Main Webpage</title>
+</head>
+<body>
+    <div class="images">
+        <img src="./styles/images/c3.jpg">
+    </div>
+    <div class="img2">
+        <img src="./styles/images/c2.jpg">
+    </div>
+    <div class="img3">
+        <img src="./styles/images/c1.jpg">
+    </div>
+
+    <div class="container">
+    <header>
+        <div class="combine">
+        <div class="logo">Free Coding Books<div></div></div>
+        <p><br><br><br><br>Be Efficient.<br> Be Creative. <br> Code & Learn More.</p>
+    </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+    </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="./Website.html">Home</a></li>
+                <li><a href="./features.html">Features</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contacts.html">Contacts</a></li>
+                <li><a href="./AboutUs.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="button">
+                <a href="./readnow.html"> Read Now!</a>
+            </button>
+        </div>
+    </header>
+    <div class="try"></div>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+</body>

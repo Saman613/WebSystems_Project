@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Georgia;
+}
+body{
+background:url(./images/bg.jpg);
+background-size: cover;
+background-position-x: center;
+background-position-x: 0px;    
+background-position-y: center;
+background-position-y: 00px;
+background-blend-mode: color-dodge;
+background-repeat: no-repeat;
+}
+.nav-bar ul{
+display: flex;
+background: url(./images/bg.jpg);
+height: 125px;
+}
+.nav-bar ul li a{
+background: #f1f1f1;
+background: rgb(0,0,0);
+background: rgb(0,0,0,0.5);
+position: relative;
+top: 30px;
+right: 300x;
+left: 250px;
+display: block;
+color: aqua;
+font-size: 25px;
+padding-right: 10px;
+padding: 15px 30px;
+border-radius: 50px;
+transition: 0.2s;
+margin: 15 50px;
+letter-spacing: 3px;
+text-shadow: rgb(0,0,0,0.5);
+}
+.nav-bar ul li a:hover{
+color: #11101b;
+background: aqua;
+}
+.nav-bar ul li a.active{
+color: #11101b;
+background: #fefefe;
+}
+.abt{
+font-size: 15px ;
+position: relative;
+background: rgb(0,0,0,0.5);
+background-size: 500px;
+top: 50px;
+left: 390px;
+color: white;
+padding: 20px 20px;
+width: 650px;
+height: 400px;
+border-radius: 30px;
+}
+.abt:hover{
+    transform: scale(1.2);
+}
+.abt1{
+    position: relative;
+    top: -5px;
+}
+p{
+    color: #fefefe;
+    font-size: 25px;
+    font-family: 'Courier New';
+    font-weight: bolder;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+    
+    

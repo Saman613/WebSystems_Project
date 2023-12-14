@@ -1,0 +1,38 @@
+.images img{
+    border-radius: 30%;
+    position: absolute;
+    top: 110px;
+    right:350px;
+    background-size: auto;
+    width: 370px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: 0.3s ease;
+}
+.images img:hover{
+    transform: scale(1.2);
+}
+.img2 img{
+    border-radius: 30%;
+    position: absolute;
+    top: 280px;
+    right:150px;
+    background-size: auto;
+    width: 370px;
+    height: 200px;
+}
+.img2 img:hover{
+    transform: scale(1.2);
+}
+.img3 img{
+    border-radius: 30%;
+    position: absolute;
+    top: 450px;
+    right:350px;
+    background-size: auto;
+    width: 350px;
+    height: 200px;
+}
+.img3 img:hover{
+    transform: scale(1.2);
+}

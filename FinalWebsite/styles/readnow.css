@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Georgia;
+    box-sizing: border-box;
+}
+body{
+    background: url(./images/bgr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar ul li a{
+    background: #f1f1f1;
+    background: rgb(0,0,0);
+    background: rgb(0,0,0,0.5);
+    position: relative;
+    top: 30px;
+    right: 300x;
+    left: 250px;
+    display: block;
+    color: aqua;
+    font-size: 25px;
+    padding-right: 10px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 15 50px;
+    letter-spacing: 3px;
+    text-shadow: rgb(0,0,0,0.5);
+}
+.nav-bar ul li a:hover{
+    color: #11101b;
+    background: aqua;
+}
+.nav-bar ul li a.active{
+    color: #11101b;
+    background: #fefefe;
+}
+.imgcon img{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 160px;
+    left: 230px;
+}
+.imgcon img:hover{
+    transform: scale(1.2);
+}
+.imgcon1 img{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: -115px;
+    left: 560px;
+}
+.imgcon1 img:hover{
+    transform: scale(1.2);
+}
+.imgcon2 img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 215px;
+    left: 900px;
+}
+.imgcon2 img:hover{
+    transform: scale(1.2);
+}
+.Books ul{
+    display: flex;
+}
+.Books ul li a p1{
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman';
+    padding: 10px 10px;
+    margin: 15px 15px;
+    position: absolute;
+    top: 450px;
+    left: 210px;
+}
+.Books ul li a p1:hover{
+    color: black;
+    background-color: aqua;
+    border-radius: 100px;
+}
+.Books ul li a p2{
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman';
+    padding: 10px 10px;
+    margin: 15px 15px;
+    position: absolute;
+    top: 450px;
+    left: 575px;
+}
+.Books ul li a p2:hover{
+    color: black;
+    background-color: aqua;
+    border-radius: 100px;
+}
+.Books ul li a p3{
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman';
+    padding: 10px 10px;
+    margin: 15px 15px;
+    position: absolute;
+    top: 450px;
+    left: 922px;
+}
+.Books ul li a p3:hover{
+    color: black;
+    background-color: aqua;
+    border-radius: 100px;
+}
+p{
+    color: #fefefe;
+    font-size: 25px;
+    font-family: 'Courier New';
+    font-weight: bolder;
+    position: absolute;
+    top: 600px;
+    left: 470px;
+}

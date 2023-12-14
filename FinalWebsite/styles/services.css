@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Georgia;
+    box-sizing: border-box;
+}
+body{
+    background:url(./images/bg.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-x: 0px;    
+    background-position-y: center;
+    background-position-y: 00px;
+    background-blend-mode: color-dodge;
+    background-repeat: no-repeat;
+}
+.nav-bar1 ul{
+    display: flex;
+    background: url(./images/bg.jpg);
+    height: 125px;
+}
+.nav-bar1 ul li a{
+    background: #f1f1f1;
+    background: rgb(0,0,0);
+    background: rgb(0,0,0,0.5);
+    position: relative;
+    top: 30px;
+    right: 300x;
+    left: 250px;
+    display: block;
+    color: aqua;
+    font-size: 25px;
+    padding-right: 10px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 15 50px;
+    letter-spacing: 3px;
+    text-shadow: rgb(0,0,0,0.5);
+}
+.nav-bar1 ul li a:hover{
+    color: #11101b;
+    background: aqua;
+}
+.nav-bar1 ul li a.active{
+    color: #11101b;
+    background: #fefefe;
+}
+p1{
+    position: absolute;
+    top: 350px;
+    left: 260px;
+    font-size: 20px;
+    color: #f1f1f1;
+    border-radius: 50px;
+    padding: 20px 20px;
+    background: #f1f1f1;
+    background: rgb(0,0,0);
+    background: rgb(0,0,0,0.5);
+}
+p1:hover{
+    transform: scale(1.2);
+}
+.imgs1 img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top:100px;
+    left: 250px;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    border-radius: 50px;
+    background-color: aliceblue;
+}
+.imgs2 img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top:100px;
+    left: 550px;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    border-radius: 50px;
+    background-color: aliceblue;
+}
+.imgs3 img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top:100px;
+    left: 850px;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    border-radius: 50px;
+    background-color: aliceblue;
+}
+p{
+    color: #fefefe;
+    font-size: 25px;
+    font-family: 'Courier New';
+    font-weight: bolder;
+    position: absolute;
+    top: 600px;
+    left: 470px;
+}

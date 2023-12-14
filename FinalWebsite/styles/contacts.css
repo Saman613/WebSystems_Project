@@ -1,0 +1,78 @@
+*{
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        font-family: Georgia;
+        box-sizing: border-box;
+}
+body{
+    background:url(./images/bg.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-x: 0px;    
+    background-position-y: center;
+    background-position-y: 00px;
+    background-blend-mode: color-dodge;
+    background-repeat: no-repeat;
+}
+.nav-bar ul{
+    display: flex;
+    background: url(./images/bg.jpg);
+    height: 125px;
+}
+.nav-bar ul li a{
+    background: #f1f1f1;
+    background: rgb(0,0,0);
+    background: rgb(0,0,0,0.5);
+    position: relative;
+    top: 30px;
+    right: 300x;
+    left: 250px;
+    display: block;
+    color: aqua;
+    font-size: 25px;
+    padding-right: 10px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 15 50px;
+    letter-spacing: 3px;
+    text-shadow: rgb(0,0,0,0.5);
+}
+.nav-bar ul li a:hover{
+    color: #11101b;
+    background: aqua;
+}
+.nav-bar ul li a.active{
+    color: #11101b;
+    background: #fefefe;
+}
+.con1{
+    font-size: 20px ;
+    position: relative;
+    top: 100px;
+    left: 390px;
+    color: aqua;
+    background: #f1f1f1;
+    background: rgb(0,0,0);
+    background: rgb(0,0,0,0.5);
+    padding: 20px 20px;
+    width: 600px;
+    height: 300px;
+    border-radius: 30px;
+}
+.con2{
+    position: relative;
+    top: 35px;
+}
+p{
+    color: #fefefe;
+    font-size: 25px;
+    font-family: 'Courier New';
+    font-weight: bolder;
+    position: absolute;
+    top: 600px;
+    left: 470px;
+}
+    
